@@ -1,16 +1,9 @@
-# Написание программы для численного интегрирования площади под кривой.
-def integrate(f, a, b, *, n_iter=1000):
-    pass
-    # float  с точностью 10^-8
+from part1 import part1_main
+from part2 import part2_main
 
-
-# или можно так:
-#  def integrate(f, a, b, n_iter=1000):
-#        pass
-#        # float  с точностью 10^-8
-
-# а и b - диапазон интегрирования
-# f - функция (например, sin, cos, tan, ...) # может быть любая функция из библиотеки math
+def main():
+    # part1_main()
+    part2_main()
 
 if __name__ == '__main__':
-    pass
+    main()
